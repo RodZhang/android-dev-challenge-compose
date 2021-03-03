@@ -26,7 +26,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navArgument
 import androidx.navigation.compose.rememberNavController
-import com.example.androiddevchallenge.ui.Home
+import com.example.androiddevchallenge.ui.page.Home
 import com.example.androiddevchallenge.ui.page.PetDetail
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
