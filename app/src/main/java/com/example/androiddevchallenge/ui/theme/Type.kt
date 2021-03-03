@@ -16,7 +16,6 @@
 package com.example.androiddevchallenge.ui.theme
 
 import androidx.compose.material.Typography
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
@@ -27,26 +26,11 @@ val typography = Typography(
     body1 = TextStyle(
         fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.Bold,
-        color = Color(0xFF222222),
         fontSize = 20.sp
     ),
     body2 = TextStyle(
         fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.Thin,
-        color = Color(0xFF555555),
         fontSize = 13.sp
     )
-)
-val sex_male = TextStyle(
-    fontFamily = FontFamily.SansSerif,
-    fontWeight = FontWeight.Normal,
-    color = Color(0xFF90CAF9),
-    fontSize = 13.sp
-)
-
-val sex_female = TextStyle(
-    fontFamily = FontFamily.SansSerif,
-    fontWeight = FontWeight.Normal,
-    color = Color(0xFFF48FB1),
-    fontSize = 13.sp
 )
